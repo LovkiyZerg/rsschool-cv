@@ -4,11 +4,13 @@
 
 ### Contact information:
 
-**Phone**:  
 **E-mail**: forzer_r@mail.ru
+
 **Telegram**: @LovkiyZerg
-**[VK](https://vk.com/lovkiy_zerg)**
+
 **Discord**: Leonid Bahaev (@LovkiyZerg)
+
+**[VK](https://vk.com/lovkiy_zerg)**
 
 ### About myself
 
