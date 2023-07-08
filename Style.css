@@ -1,0 +1,103 @@
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section {
+  width: 50%;
+}
+.name {
+  text-align: center;
+  align-self: center;
+}
+.main {
+  line-height: 1.5;
+}
+code {
+  line-height: 0.1;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 0px;
+  padding: 0px;
+  background-color: #a458e2;
+  line-height: 40px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-link {
+  padding: 20px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.767);
+  text-decoration: none;
+  font-size: 18px;
+}
+.link {
+  text-decoration: none;
+  color: #810ae2;
+}
+.author {
+  color: #810ae2;
+}
+.avatar {
+  height: 200px;
+  border-radius: 50px;
+  vertical-align: middle;
+  margin-left: 200px;
+  margin-bottom: 5px;
+}
+.footer {
+  line-height: 60px;
+  background-color: #a458e2;
+  color: rgba(255, 255, 255, 0.767);
+}
+.rs-logo {
+  height: 40px;
+  margin-top: 10px;
+  float: right;
+}
+.title {
+  margin-left: 20px;
+}
+.title-text {
+  margin-left: 30px;
+}
+.big-line {
+  width: 200%;
+  height: 15px;
+  background-color: #ddb6eb;
+  border: none;
+}
+hr {
+  width: 70%;
+  margin-left: 0px;
+}
+.hr-name {
+  width: 300px;
+  margin-left: auto;
+}
+pre {
+  margin-bottom: 0;
+  line-height: 1.2;
+}
