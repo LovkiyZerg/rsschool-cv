@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+}
+.container {
+  width: 1440px;
+  height: 5246px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 90px;
+  background-color: blue;
+}
+.Welcome {
+  width: 100%;
+  height: 600px;
+  background-color: aqua;
+}
+.About {
+  width: 100%;
+  height: 839px;
+  background-color: red;
+}
+.Favorites {
+  width: 100%;
+  height: 1439px;
+  background-color: yellow;
+}
+.CoffeShop {
+  width: 100%;
+  height: 841px;
+  background-color: green;
+}
+.Contacts {
+  width: 100%;
+  height: 575px;
+  background-color: violet;
+}
+.LibraryCard {
+  width: 100%;
+  height: 614px;
+  background-color: orange;
+}
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: brown;
+}
