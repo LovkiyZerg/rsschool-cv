@@ -29,15 +29,15 @@ body {
 }
 .About {
   width: 100%;
-  height: 839px;
-  background-color: red;
+  height: 837px;
+  background-color: #ffffff;
 }
 .Favorites {
   width: 100%;
   height: 1439px;
   background-color: yellow;
 }
-.CoffeShop {
+.CoffeeShop {
   width: 100%;
   height: 841px;
   background-color: green;
@@ -113,6 +113,77 @@ nav {
   color: #ffffff;
   font-family: Forum;
   font-size: 40px;
+}
+h2 {
+  margin: 0;
+  text-align: center;
+  font-family: forum;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #0c0c0e;
+  letter-spacing: 2px;
+  padding-top: 15px;
+  text-transform: capitalize;
+}
+.main-hr {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 50px;
+  height: 1px;
+  background-color: #0c0c0e;
+}
+.p-about {
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+}
+.img-left {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.img-center {
+  margin-left: 21px;
+  margin-right: 21px;
+}
+.img-right {
+  margin-left: 0;
+  margin-right: 20px;
+}
+.circles-1 {
+  display: flex;
+  width: 100%;
+  height: 96px;
+}
+.circles-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 78px;
+  height: 16px;
+}
+.circle {
+  display: flex;
+  width: 26px;
+  height: 26px;
+}
+.circle-active {
+  background-color: #bb945f;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.circle-passive {
+  background-color: #0c0c0e;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 @font-face {
   font-family: "Forum";
