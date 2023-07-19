@@ -80,14 +80,15 @@ nav {
   align-items: center;
   justify-content: flex-end;
 }
-.nav-item {
-}
 .nav-link {
   text-decoration: none;
   color: #ffffff;
   padding: 0 0 0 30px;
   font-size: 20px;
   font-family: Inter;
+}
+header a:hover {
+  font-weight: 700;
 }
 .profile-icon {
   margin-right: 20px;
@@ -106,15 +107,17 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  letter-spacing: 3px;
   width: 600px;
   height: 220px;
   padding: 35px 40px;
   background-color: #0c0c0e;
-  color: #ffffff;
-  font-family: Forum;
+}
+.Welcome-to-Brooklin h3 {
   font-size: 40px;
+  font-family: Forum;
+  color: #ffffff;
+  letter-spacing: 3px;
+  text-align: center;
 }
 h2 {
   margin: 0;
@@ -272,6 +275,7 @@ label {
   height: fit-content;
   font-size: 20px;
   letter-spacing: 2px;
+  font-weight: 400;
 }
 .fav-hr {
   position: absolute;
@@ -366,18 +370,18 @@ label {
 .cafe-title {
   font-size: 40px;
   font-family: Forum;
-  font-weight: 40px;
   letter-spacing: 2px;
   color: #bb945f;
   text-align: left;
+  font-weight: 400;
 }
 .desserts-title {
   font-size: 40px;
   font-family: Forum;
-  font-weight: 40px;
   letter-spacing: 2px;
   color: #bb945f;
   text-align: right;
+  font-weight: 400;
 }
 .menu-item {
   display: flex;
@@ -633,7 +637,7 @@ button:hover {
   align-self: center;
 }
 footer hr {
-  width: 1400;
+  width: 1400px;
   height: 1px;
   background-color: #ffffff;
   border: none;
